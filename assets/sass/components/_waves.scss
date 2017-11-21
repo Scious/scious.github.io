@@ -1,0 +1,37 @@
+#waves {
+
+    overflow: hidden;
+
+    background-image: url('/assets/img/waves/15Sky.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #bab094;
+
+    width: 1900px;
+    @include calc("height", "100vh - 100px");
+
+    position: absolute;
+    left: 50%;
+    margin-left: -950px;
+    top: 70px;
+    bottom: 50px;
+
+    img {
+        position: absolute;
+        bottom: 0;
+        // transform: scale(0.75);
+        // transform-origin: inherit bottom;
+    }
+
+    @media(max-width:767px) {
+        background-image: url('/assets/img/waves/wave-mobile.png');
+        left: auto;
+        top: 60px;
+        margin-left: auto;
+        width: 100%;
+        img {
+            display:none;
+        }
+    }
+}

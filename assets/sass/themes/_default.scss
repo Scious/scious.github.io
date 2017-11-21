@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+
+
+@media (min-width: 768px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+       display: block;
+    }
+}
+
+
+@media(max-width:767px) {
+    .navbar-toggle {
+        margin-top: 25px;
+    }
+}

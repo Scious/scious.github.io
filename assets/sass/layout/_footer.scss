@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+
+#footer {
+    background-color: $white;
+    border-top: 2px solid $brand-color;
+    padding: 35px 0;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    @media(max-width:767px) {
+        padding: 10px 0;
+    }
+}
