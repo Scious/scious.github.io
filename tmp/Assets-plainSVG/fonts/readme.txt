@@ -1,1 +1,0 @@
-The navigational arrow at the bottom of every page (except the last one) is called "keyboard arrow down". Instructions for using it are available here https://design.google.com/icons/#ic_keyboard_arrow_down
