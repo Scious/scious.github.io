@@ -11,7 +11,29 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+}
+
+/* main {
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  height: vh;
+} */
+
+.middle {
+    margin-left: 60px;
+    margin-right: 50px;
+    position: relative;
+    top: 109px;
+    max-width: 880px;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    color: #555;
+    line-height: 1.7em;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
@@ -4007,7 +4029,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 
     .navbar-fixed-top .navbar-collapse,.navbar-static-top .navbar-collapse,.navbar-fixed-bottom .navbar-collapse {
         padding-left: 0px;
-        padding-right: 40px;
+        padding-right: 51px;
     }
 }
 
@@ -4070,7 +4092,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 
 .navbar-brand {
     float: left;
-    padding: 7px 30px;
+    padding: 7px 51px;
     font-size: 18px;
     line-height: 20px;
     height: 50px
