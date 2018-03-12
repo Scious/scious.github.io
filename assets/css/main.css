@@ -16,6 +16,53 @@ body {
     background-repeat: repeat;
 }
 
+.word {
+  position: relative;
+  /* width: 265px; */
+  /* height: 52px; */
+  left: 58px;
+  top: 40px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 31px;
+
+  color: #FFFFFF;
+
+
+}
+
+.dictionary-tile{
+  background-color: #4E6269;
+  position: relative;
+  top: 50px;
+  height: 218px;
+  width: auto;
+}
+
+.definition {
+  position: relative;
+  left: 58px;
+  top: 40px;
+  line-height: 26px;
+  font-size: 18.25px;
+  color: #FFFFFF;
+}
+
+.part-of-speech {
+  position: relative;
+  /* height: 26px; */
+  left: 58px;
+  top: 40px;
+
+  font-style: italic;
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 16px;
+
+  color: #BED8E8;
+}
+
 /* main {
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
@@ -1473,8 +1520,8 @@ h1 small,h1 .small,h2 small,h2 .small,h3 small,h3 .small,h4 small,h4 .small,h5 s
 }
 
 h1,.h1,h2,.h2,h3,.h3 {
-    margin-top: 20px;
-    margin-bottom: 10px
+    margin-top: 16px;
+    margin-bottom: 26px
 }
 
 h1 small,h1 .small,.h1 small,.h1 .small,h2 small,h2 .small,.h2 small,.h2 .small,h3 small,h3 .small,.h3 small,.h3 .small {
