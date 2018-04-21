@@ -7,6 +7,8 @@ deploy.sh
 ### Git ###
 *.orig
 
+### Jekyll ###
+_site
 
 ### Sass ###
 .sass-cache/
