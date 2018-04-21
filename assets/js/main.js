@@ -8,23 +8,24 @@ $(function() {
         // calculate the padding for mobile / non-mobile
         // var paddingTop = ( $(window).width() < 767 ) ? 62 : 92;
 
-        $('#fullpage').fullpage({
-            anchors: ['home', 'consulting', 'contact', 'projects'],
-            menu: '#navigation',
-            paddingTop: 92,
-            fixedElements: '#navigation',
-            verticalCentered: false,
-            scrollBar: false,
-            fitToSection: false,
-            slidesNavigation: true
-        });
-        $(".navbar-brand, .nav a").on("click", function(e) {
-            $.fn.fullpage.moveTo(1);
-        });
+        // $('#fullpage').fullpage();
+        // {
+        //     anchors: ['home', 'about', 'contact', 'projects'],
+        //     menu: '#navigation',
+        //     paddingTop: 92,
+        //     fixedElements: '#navigation',
+        //     verticalCentered: false,
+        //     scrollBar: false,
+        //     fitToSection: false,
+        //     slidesNavigation: true
+        // });
+        // $(".navbar-brand, .nav a").on("click", function(e) {
+        //     $.fn.fullpage.moveTo(1);
+        // });
 
-        $('.next-section').on("click", function(e) {
-            $.fn.fullpage.moveSectionDown();
-        });
+        // $('.next-section').on("click", function(e) {
+        //     $.fn.fullpage.moveSectionDown();
+        // });
     } 
     // mobile
     else {
