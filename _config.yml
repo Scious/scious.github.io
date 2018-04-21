@@ -1,0 +1,8 @@
+defaults:
+  -
+    scope:
+      path: "" # Will be used in entire project
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Andrew Agostini"
