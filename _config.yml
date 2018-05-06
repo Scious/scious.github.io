@@ -1,8 +1,17 @@
+---
+title: Scious.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  -
-    scope:
-      path: "" # Will be used in entire project
-      type: "pages"
-    values:
-      layout: "default"
-      author: "Andrew Agostini"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+    author: Andrew Agostini
