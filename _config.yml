@@ -5,6 +5,8 @@ collections:
   posts:
     title: Posts
     output: true
+    author:
+      name: Andrew Agostini
   uploads:
     title: Uploads
     output: true
