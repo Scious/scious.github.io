@@ -11,3 +11,5 @@ tags:
 
 - Some
 - Markdown
+
+My name is {{posts.author.name}}
