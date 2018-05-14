@@ -19,6 +19,10 @@ defaults:
     path: ''
     type: posts
   values:
+<<<<<<< HEAD
     author: 
       name: Andrew Agostini
 
+=======
+    author: Andrew Agostini
+>>>>>>> f19afe011b1a2ef11a03fb9b4762eaa2da78439e
