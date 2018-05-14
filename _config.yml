@@ -19,5 +19,6 @@ defaults:
     path: ''
     type: posts
   values:
-    author: Andrew Agostini
+    author: 
+      name: Andrew Agostini
 
