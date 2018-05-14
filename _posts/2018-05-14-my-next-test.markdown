@@ -1,6 +1,10 @@
 ---
 title: My next test
 date: 2018-05-14 03:28:00 Z
+categories:
+- test
+tags:
+- testTag
 ---
 
 1. This is another post.
