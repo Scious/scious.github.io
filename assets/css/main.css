@@ -7,10 +7,14 @@ html {
 body {
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
-    padding-top: 15px;
+    padding-top: 74px;
     color: #222;
     font: normal 200%/1.4 "Roboto", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+    body { padding-top: 60px; }
 }
 
 @font-face {
@@ -144,59 +148,6 @@ body {
 .next-section a i {
     font-size: 40px;
     margin-left: -6px
-}
-
-.word {
-    position: relative;
-    left: 58px;
-    top: 40px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 31px;
-    color: #FFFFFF;
-}
-
-.dictionary-tile {
-    background-color: #4E6269;
-    position: relative;
-    top: 50px;
-    height: 218px;
-    width: auto;
-}
-
-.definition {
-    position: relative;
-    left: 58px;
-    top: 40px;
-    line-height: 26px;
-    font-size: 18.25px;
-    color: #FFFFFF;
-}
-
-.part-of-speech {
-    position: relative;
-    left: 58px;
-    top: 40px;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 23px;
-    font-size: 16px;
-    color: #BED8E8;
-}
-
-.middle {
-    margin-left: 60px;
-    margin-right: 50px;
-    position: relative;
-    top: 109px;
-    max-width: 880px;
-    font-size: 18px;
-    font-weight: 300;
-    font-style: normal;
-    text-align: left;
-    color: #555;
-    line-height: 1.7em;
 }
 
 .section {
@@ -463,6 +414,52 @@ hr.divider {
 .next-section a i {
     font-size: 40px;
     margin-left: -6px
+}
+
+/* About */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px 0 0 25px; */
+}
+
+.dictionary-tile {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: #4E6269;
+    padding: 15px 0 0 25px;
+}
+
+.word {
+    line-height: normal;
+    font-size: 31px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.part-of-speech {
+    font-style: italic;
+    /* font-weight: normal; */
+    margin-bottom: 26px;
+    font-size: 16px;
+    color: #BED8E8;
+}
+
+.definition {
+    margin-bottom: 26px;
+    font-size: 18.25px;
+    color: #FFFFFF;
+}
+
+.placeholder {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    color: #555;
+    padding: 0 0 0 25px;
 }
 
 /* WAVES */
