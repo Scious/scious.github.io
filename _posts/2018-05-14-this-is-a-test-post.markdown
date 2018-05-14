@@ -12,4 +12,4 @@ tags:
 - Some
 - Markdown
 
-My name is {{ author.name }}
+My name is {{ posts.author.name }}
