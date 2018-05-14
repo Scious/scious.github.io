@@ -5,8 +5,6 @@ collections:
   posts:
     title: Posts
     output: true
-    author:
-      name: Andrew Agostini
   uploads:
     title: Uploads
     output: true
@@ -17,3 +15,9 @@ defaults:
   values:
     layout: default
     author: Andrew Agostini
+- scope:
+    path: ''
+    type: posts
+  values:
+    author: Andrew Agostini
+
