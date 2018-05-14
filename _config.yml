@@ -1,6 +1,7 @@
 ---
 title: Scious.Github.Io
 timezone: UTC
+url: http://scious.io
 collections:
   posts:
     title: Posts
@@ -19,5 +20,7 @@ defaults:
     path: ''
     type: posts
   values:
+    layout: default
+    permalink: "/posts/:title"
     author:
       name: Andrew Agostini
