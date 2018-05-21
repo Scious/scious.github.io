@@ -5,6 +5,7 @@ categories:
 - test
 tags:
 - test
+thumbnail: "/uploads/far-east%20village.jpg"
 ---
 
 **With some Markdown, baby**
