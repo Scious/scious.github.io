@@ -8,9 +8,23 @@ body {
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     padding-top: 74px;
+    padding-bottom: 70px;
     color: #222;
     font: normal 200%/1.4 "Roboto", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     letter-spacing: 1px;
+}
+
+.blog-post {
+    height: 250px !important;
+    width: 100%;
+}
+
+.container {
+    margin-left: 0;
+}
+
+.middle {
+    margin-left: 51px;
 }
 
 @media (max-width: 767px) {
